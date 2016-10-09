@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    tools:context="com.kat.holamundo.MainActivity"
+    android:background="@drawable/androidp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_app"
+        android:textSize="@dimen/abc_action_bar_default_height_material"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/white"
+        android:elegantTextHeight="false"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/white"
+        android:editable="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_btn"
+        android:id="@+id/button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_border"
+        android:singleLine="false"
+        android:width="@dimen/abc_dialog_fixed_width_major"
+        android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
